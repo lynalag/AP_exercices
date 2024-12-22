@@ -1,0 +1,10 @@
+print("runner 1:")
+name1 =input("Name: ")
+time1 = float(input("Time: "))
+
+print("runner 2:")
+name2 =input("Name: ")
+time2 = float(input("Time: "))
+if time1 > time2: print("the faster one is", name2)
+elif time2 > time1: print("the faster one is", name1)
+else: print(name1," znd ",name2, "have the same time")
